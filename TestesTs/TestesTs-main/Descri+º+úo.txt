@@ -1,0 +1,37 @@
+--- Testes com jest
+
+- O que é?
+
+Jest é um framework de testes em JS. Basicamente, uma estrutura de códigos feita para testes
+Funciona pra node, react, angular e outros.
+- Primeiros passos:
+npm install  - -save-dev jest
+
+- Crie a função dentro de algum arquivo:
+
+const users = [{ name: “Polloni”, age: 19, function: “director” }];
+
+function getUsers() {
+	return users;
+}
+module.exports = getUsers;
+
+Você deve criar um novo arquivo com uma função estilo jest
+const getUsers = require(“./users”);
+
+it(“should have at least one user”, async () => {
+const users = getUsers();
+
+expect(users.length),toBeGreaterThanOrEqual(1);
+});
+
+- Agora é só por pra rodar, adicione no arquivo do Npm
+“scripts”: {
+     “test”: “jest”
+},
+
+- E no terminal use o comando:
+npm run test
+
+✅Se ficar Verdinho, está ok!!
+Caso queira mais informações, a documentação do jest pode ajudar em várias coisas!

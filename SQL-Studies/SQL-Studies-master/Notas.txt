@@ -1,0 +1,25 @@
+Descritivo Exercicos:
+1. Dado o id de um produto e o id de um local, mostre o nome do produto
+e a quantidade em estoque.
+2. Dado o id de um funcionário mostre o nome e o id do seu gerente.
+3. Dado o id de um produto, mostre o nome do produto e o nome da
+categoria ao qual pertence.
+4. Dado o id do cliente, retorne o nome do produto que mais vezes esse
+cliente pediu.
+5. Dado o id do cliente, retorne o funcionário que mais vezes o atendeu.
+6. Crie uma função PL/SQL no Oracle que calcule a média aritmética de
+uma lista de valores numéricos passados como parâmetros. A função
+deve ter o nome "calcular_media" e receberá um número
+indeterminado de parâmetros. A média aritmética dos valores passados
+como parâmetros deve ser retornada e retornada pela função. Como
+exemplo, a chamada da função "calcular_media(4, 6, 8, 10)" deve
+retornar o valor 7.
+7. Crie uma função PL/SQL que receba como parâmetro o PRODUCT_ID e
+retorne o número total de vendas realizadas deste produto nos últimos
+30 dias. Considere que as informações de venda estão armazenadas nas
+tabelas ORDERS e ORDER_ITEMS, que possui as seguintes colunas:
+ORDER_ID (chave primária), PRODUCT_ID, ORDER_DATE e QUANTITY.
+A função deve retornar um valor do tipo NUMBER.
+8. Crie uma função PL/SQL que receba como parâmetro o código de um
+produto e retorne a quantidade total de vendas realizadas desse
+produto, considerando todas as vendas registradas no banco de dados.

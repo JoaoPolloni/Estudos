@@ -1,0 +1,59 @@
+1)Qual é o número total de vendas registradas no banco de dados?
+
+-db.sales.count()
+-Resultado: 10
+
+//////////////////////////////////////////////
+2)Qual é a média de valor das vendas realizadas?
+
+-db.sales.aggregate([
+  {
+    $group: {
+      _id: null,
+      average: { $avg: {$multiply: ["$price", "$quantity"]} }
+    }
+  }
+])
+-Resultado: { "_id" : null, "average" : 234.2 }
+
+////////////////////////////////////////////////////////////
+
+3)Qual é o valor total das vendas registradas?
+
+-db.sales.aggregate([
+  {
+    $group: {
+      _id: null,
+      total: { $sum: { $multiply: ["$price", "$quantity"] } }
+    }
+  }
+])
+-Resultado: { "_id" : null, "total" : 2342}
+
+///////////////////////////////////////////////////////////////////////
+
+4)Qual é o valor máximo de uma venda no banco de dados?
+
+-db.sales.find().sort({price:-1}).limit(1)
+--Resultado: { "_id" : null, "price" : 25}
+
+//////////////////////////////////////////////////////////
+
+5)Qual é o valor mínimo de uma venda no banco de dados?
+
+-db.sales.find().sort({price:1}).limit(1)
+--Resultado: { "_id" : null, "price" : 5}
+
+/////////////////////////////////////////////////////////////////////////
+
+6)Qual é o desvio padrão dos valores das vendas?
+
+-db.sales.aggregate([
+  {
+    $group: {
+      _id: null,
+      total: { $stdDevPop: { $multiply: ["$price", "$quantity"] } }
+    }
+  }
+])
+-Resultado: {  _id: null,  total: 19%}
