@@ -546,3 +546,38 @@ que se concentra em declarar o que deve ser feito, em vez de como fazer. Isso le
 
 Em resumo, o tratamento de funções como cidadãs de primeira classe é uma característica fundamental da programação funcional que aumenta a flexibilidade e a 
 expressividade do código, permitindo a criação de soluções mais genéricas, reutilizáveis e legíveis. Isso é especialmente útil ao lidar com tarefas de processamento de dados e abstrair comportamentos complexos.
+
+
+CONTEUDO SOBRE O DOCS ANOTADO EM SALAS DE AULA
+
+O gerenciamento de Configurações é a prática de rastrear e controlar mudanças nas configurações de software e infraestrutura para garantir a consistência e a estabilidade do ambiente. É essencial para o sucesso de projetos de TI e é frequentemente associado ao conceito de infraestrutura com código (Iac).
+Automação: Utilização de ferramentas para automatizar o processo de implantação e configuração de ambientes.
+Versionamento: Manter o controle de versões de configurações para rastrear mudanças e permitir reversões
+Orquestração: Coordenar e gerenciar a configuração de sistemas distribuídos e complexos
+Auditoria e Monitoramento: Rastrear e monitorar as configurações para garantir a conformidade e a detecção de problemas.
+
+Curso: AWS Cloud Practitioner - Parte ⅓ (ft. Thauany Moedano)
+Monolito micro serviço
+
+Docker é uma plataforma de virtualização de container que permite empacotar, distribuir e executar aplicativos e suas dependências de forma isolada em qualquer ambiente.
+
+Portabilidade: Os containers Docker podem ser executados em qualquer sistema compatível com docker, independente das diferenças de infraestrutura
+
+Isolamento: Cada contêiner possui suas dependências isoladas, evitando conflitos entre aplicativos
+
+Eficiência. Os containers compartilham o núcleo do sistema operacional, tornando-os mais leves e rápidos em comparação com máquinas virtuais.
+
+Escalabilidade: Os containers podem ser replicados e escalados facilmente para atender às demandas de carga de trabalho
+
+Desenvolvimento Local: Os desenvolvedores podem criar ambientes de desenvolvimento idênticos aos de produção, evitando problemas causados por diferenças de configuração.
+
+Implantação de MicroServiços: Os containers permitem empacotar e implementar serviços de forma independente, facilitando
+
+Iac é um conceito central no Gerenciamento de COnfigurações, onde a infraestrutura é definida e provisionada por meio de código, geralmente em formato declarativo
+
+Ferramentas de automação de configurações: Ansible, Puppet e Chef
+
+Uso de ferramentas de controle de versão (Git) para rastrear mudanças na infraestrutura e histórico de configurações 
+
+Ferramentas de CI/CD: Jenkins, GitLab CI/CD, CircleCI
+(Ferramentas como o Grafana podem ajudar no monitoramento)
