@@ -1,0 +1,78 @@
+O que é Gerenciamento de configurações?
+
+R - Garante a consistência, rastreabilidade e controle das diversas partes envolvidas em um projeto de software, envolvendo a gestão de todos os itens que compõem um sistema, garantindo que todas as alterações sejam controladas e bem coordenadas.
+
+Qual a finalidade de Gerenciamento de configurações? 
+
+R - Possibilita o desenvolvimento, implantação, manutenção e colaboração entre membros da equipe de forma eficiente no desenvolvimento e planejamento do software.
+
+Quais as principais tarefas do Gerenciamento de configuração:
+
+R - Controle de versão, construção do sistema, gerenciamento de alterações, gerenciamento de liberação.
+
+Principais conceitos de Gerenciamento de Configurações:
+
+- Item de configuração(IC) : Qualquer artefato que faz parte do sistema
+- Baseline : Versão específica de um conjunto de itens de configuração que foi revisada, testada e aprovada.
+- Versionamento: Prática de atribuir uma versão única e identificável a cada item de configuração
+- Controle de Mudanças: Processo que garante as mudanças nos itens de configuração de maneira controlada e documentada.
+- Ambiente: Configurações de hardware e software onde o sistema é desenvolvido, testado e implantado.
+- Integração Contínua(CI): Prática em que alterações de código são frequentemente integradas a um repositório compartilhado.
+- Entrega contínia(CD): Automatização do processo de empacotar, testar e entregar o software em ambientes de produção de forma mais rápida e confiável.
+- Ferramentas de Gerenciamento de Configuração: Versionamento(Git, SVN) - Automação ( Jenkins, Travis CI) - Rastreamento de problemas(JIRA, Bugzilla).
+
+Itens de configuração(que devem ser gerenciados):
+
+- Código-fonte: Representação textual do software que deve ser mantido em um sistema de controle de versão(GIT por exemplo).
+- Artefatos de compilação: Binários, bibliotecas e outros arquivos gerados a partir do código-fonte.
+- Documentação: Manuais, Especificações técnicas, guias do usuário, etc(Diagrama de classes/atividades, Documento de Requisitos, Fluxogramas).
+- Configurações de ambiente: Arquivos e scripts de configuração que são fundamentais para garantir que o software funcione corretamente em diferentes ambientes.
+- Dados: Estrutura de banco de dados, scripts de migração e configurações de dados devem ser gerenciados.
+- Recursos multimídia: Imagens, vídeos, áudios e outros recursos multimídia usados no software também devem ser versionados.
+- Testes: Casos de teste, scritps de teste automatizados e dados de teste.
+- Scripts e Ferramentas: Scripts de automação, utilitários e ferramentas utilizadas no processo de desenvolvimento.
+
+Organização:
+
+1 - Sistema de Controle de versão: A equipe deve selecionar uma ferramenta de controle de versão
+
+2 - Revisão e Aprovação: Antes de qualquer alteração ser integrada, ela deve passar por revisão e aprovação da equipe.
+
+3 - Integração Contínua e Entrega Contínua(CD): Automatizar a complicação, teste e implantação do software para uma entrega de maneira mais consistente.
+
+4 - Padronização e Documentação: Definir padrões de codificação, fluxos de trabalho e documentação clara.
+
+5 - Monitoramento e Auditoria: Acompanhar as alterações, identificar problemas e fazer auditorias regulares.
+
+6 - Treinamento da Equipe: Assegurar que todos os membros da equipe compreendam os processos de gerenciamento de configuração e saibam utilizar as ferramentas corretamente.
+
+7 - Ambiente Controlado: Gerenciar as configurações de ambiente.
+
+8 - Melhoria Contínua: Periodicamente, a equipe deve revisar os processos e buscar maneiras de melhorar a eficiência e a qualidade do gerenciamento de configurações.
+
+ 
+
+
+
+**O que é o Gerenciamento de Configuração de Software (SCM)?**
+O Gerenciamento de Configuração de Software é uma disciplina essencial no desenvolvimento de software que visa controlar, rastrear e gerenciar as mudanças em um sistema de software ao longo de seu ciclo de vida. Ele aborda a necessidade de manter a integridade e a consistência do software, permitindo o desenvolvimento, a entrega e a manutenção de sistemas de software de forma organizada e controlada.
+
+**Objetivos do SCM:**
+- **Controle de Mudanças:** SCM visa controlar todas as mudanças feitas em um sistema de software, desde pequenas correções até grandes atualizações, para evitar problemas e conflitos.
+- **Rastreabilidade:** Permite rastrear todas as mudanças e a evolução do software ao longo do tempo, proporcionando um histórico completo.
+- **Gestão de Configuração:** Identifica e gerencia as várias configurações de um sistema de software, garantindo que a versão correta seja implantada em qualquer momento.
+- **Garantia de Qualidade:** Contribui para a garantia de qualidade, permitindo a repetibilidade de processos de compilação, teste e implantação.
+- **Colaboração Efetiva:** Facilita a colaboração entre membros da equipe de desenvolvimento, garantindo que todos estejam trabalhando com a mesma base de código.
+- **Segurança e Conformidade:** Ajuda a garantir a segurança do software e a conformidade com regulamentações, mantendo um registro de quem fez quais mudanças.
+
+**Componentes do SCM:**
+1. **Itens de Configuração (ICs):** São os elementos individuais que compõem um sistema de software, como código-fonte, documentação, recursos gráficos, bibliotecas, etc.
+2. **Baselines:** Representam versões específicas de um sistema de software em um determinado ponto do tempo, estabelecendo marcos para controle e referência.
+3. **Controle de Versões:** Gerencia as diferentes iterações e versões de um IC, permitindo a recuperação de versões anteriores e a identificação de quem fez quais alterações.
+4. **Gestão de Mudanças:** Define processos para solicitar, revisar, aprovar e implementar mudanças no software, garantindo que todas as alterações sejam documentadas e controladas.
+5. **Ambiente de Construção e Implantação:** Automatiza a compilação, teste e implantação de software, garantindo que o processo seja consistente e reproduzível.
+
+**Ferramentas de SCM:**
+Existem várias ferramentas de SCM disponíveis, como Git, Subversion, Mercurial, entre outras, que auxiliam na implementação das práticas de SCM, facilitando o controle de versões, o rastreamento de mudanças e a colaboração entre desenvolvedores.
+
+Em resumo, o gerenciamento de configuração de software é crucial para garantir que um projeto de software seja desenvolvido de forma controlada, com qualidade, rastreabilidade e colaboração eficaz, ao mesmo tempo em que se mantém a integridade do sistema ao longo do tempo. É uma prática fundamental para o desenvolvimento de software eficiente e confiável.
