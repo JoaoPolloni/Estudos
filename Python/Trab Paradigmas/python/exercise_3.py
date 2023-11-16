@@ -1,19 +1,36 @@
-def tranformar_pra_mb(bytes):
-    mb = round(int(bytes)/ (1024 * 1024), 2)
-    return str(mb).replace('.', ',')
+def bytes_to_megabytes(bytes_value):
+    return bytes_value / (1024 ** 2)
+
+def calculate_percentage(used_space, total_space):
+    return (used_space / total_space) * 100
+
+def generate_report(users):
+    total_space = sum(users.values())
+    average_space = total_space / len(users)
+
+    with open('relatorio.txt', 'w') as f:
+        f.write("ACME Inc. Uso do espaco em disco pelos usuarios\n")
+        f.write("-" * 60 + "\n")
+        f.write("{:<5} {:<15} {:<15} {:<10}\n".format("Nr.", "Usuario", "Espaco utilizado", "% do uso"))
+
+        for i, (user, space) in enumerate(users.items(), start=1):
+            space_mb = bytes_to_megabytes(space)
+            percentage = calculate_percentage(space, total_space)
+            f.write("{:<5} {:<15} {:<15.2f} MB {:<10.2f}%\n".format(i, user, space_mb, percentage))
+
+        f.write("-" * 60 + "\n")
+        f.write("Espaco total ocupado: {:.2f} MB\n".format(bytes_to_megabytes(total_space)))
+        f.write("Espaco medio ocupado: {:.2f} MB\n".format(bytes_to_megabytes(average_space)))
 
 def main():
-    with open(r'python\ex3\usuarios.txt', 'r') as file: 
-        txt = file.readlines()
+    users = {}
     
-    usuarios = dict(map(str.split, txt))
-    total = sum(map(int , usuarios.values()))
-    
+    with open('usuarios.txt', 'r') as file:
+        for line in file:
+            user, space = line.strip().split()
+            users[user] = int(space)
 
-    with open(r'python\ex3\resultado.txt', 'w', encoding='UTF-8') as file:
-        file.write('ACME Inc. Uso do espaço em disco pelos usuários\n')
-        file.write('------------------------------------------------------------------------\n')
-        file.write('Nr. Usuário Espaço utilizado % do uso\n')
-        for count, usuario in enumerate(usuarios.items()):
-            nome, espaco = usuario
-            file.write(f'{count}   {nome.ljust(15)} {(tranformar_pra_mb(espaco) + "MB").rjust(10)}    {round(int(espaco) * 100/total)} %\n')
+    generate_report(users)
+
+
+main()
