@@ -39,3 +39,16 @@ def bubbleSort(alist):
 alist = [54,26,93,17,77,31,44,55,20]
 bubbleSort(alist)
 print(alist)
+
+#Media de lista de numeros
+def calcular_media(numeros):
+    if len(numeros) == 0:
+        return 0  # Retorna 0 se a lista estiver vazia para evitar divisão por zero
+    soma = sum(numeros)
+    media = soma / len(numeros)
+    return media
+
+# Exemplo de uso:
+lista_numeros = [5, 10, 15, 20, 25]
+media = calcular_media(lista_numeros)
+print("A média é:", media)
