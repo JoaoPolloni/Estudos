@@ -1,5 +1,3 @@
-Claro, aqui está o conteúdo transformado em um arquivo README.md:
-
 # Car Part Identification App
 
 Este é um aplicativo móvel desenvolvido para identificar peças de carro a partir de imagens capturadas pela câmera do dispositivo. O aplicativo utiliza técnicas de processamento de imagem para reconhecer a peça e apresenta uma lista de modelos da peça identificada, juntamente com suas substitutas.
