@@ -13,7 +13,9 @@ export class UsersService {
   async create(createUserDto: CreateUserDto) {
     createUserDto.password = await this.userHash(createUserDto.password)
 
-    this.userModel.create(createUserDto)
+    const user = await this.userModel.create(createUserDto)
+
+    return user
   }
 
   findOne(username: string) {
