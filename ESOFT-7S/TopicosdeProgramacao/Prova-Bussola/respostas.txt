@@ -1,0 +1,9 @@
+8 - O loop de eventos do Node.js é um mecanismo que permite operações assíncronas não bloqueantes. 
+Ele processa tarefas em diferentes fases, incluindo timers, I/O assíncrono, eventos de I/O, e setImmediate.
+Essas fases garantem que as operações possam ser realizadas de forma eficiente, sem bloquear a execução. 
+Isso é fundamental para lidar com I/O assíncrono, permitindo que o Node.js atenda a várias solicitações simultaneamente, mantendo baixo consumo de recursos.
+
+
+9 - A engine V8 do Node.js executa código JavaScript, otimizando-o para melhor desempenho.
+Enquanto isso, a biblioteca libuv lida com operações de I/O assíncronas, utilizando threads de sistema operacional para executar operações de I/O de forma eficiente. 
+A interação entre V8 e libuv permite que o Node.js combine a velocidade de execução de código JavaScript com operações de I/O não bloqueantes, resultando em um desempenho eficiente para aplicações web.
