@@ -1,0 +1,33 @@
+body {
+    background-color: #ffc0cb;
+}
+
+.strong-shadow {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3), 0 15px 40px rgba(0, 0, 0, 0.3);
+}
+
+.strong-pink {
+    color: deeppink;
+}
+
+.card-big {
+    transform: scale(4);
+}
+
+ul {
+    list-style-type: none;
+}
+
+img {
+    width: 12vh;
+    height: auto;
+}
+
+.min-vh-80 {
+    min-height: 80vh;
+}
+
+iframe {
+    width: 160vh;
+    height: 80vh;
+}
