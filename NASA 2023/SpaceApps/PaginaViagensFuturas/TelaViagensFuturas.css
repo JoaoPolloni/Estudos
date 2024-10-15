@@ -1,0 +1,85 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+  
+  @import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+
+body {
+  background-image: url(assets/Starlit-galaxy-background-image-Graphics-24688475-1.jpg);
+  /* Outras propriedades de estilo para o body, como altura, margem, etc. */
+
+  margin: 0;
+  /* Remove as margens padrão do body */
+  color: white;
+  /* font-family: Open Sans; */
+}
+
+
+.FiraCode{
+  font-family: 'Fira Code', monospace;
+}
+
+.cabeçalão {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  padding: 20px;
+}
+
+.Texto-esquerdo {
+  width: 30vw;
+  padding-right: 50px;
+  text-align: justify;
+}
+
+.Texto-direito {
+  width: 30vw;
+  padding-left: 50px;
+  text-align: justify;
+}
+
+.Imagem-direita {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-bottom: 100px;
+
+}
+
+.Imagem-esquerda {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-bottom: 100px;
+}
+
+
+span {
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: lightgray; /* Apenas para fins de exemplo */
+  padding: 10px; /* Apenas para fins de exemplo */
+}
+
+a {
+  text-decoration: none;
+  color: #333; /* Cor dos links */
+  margin-right: 10px; /* Espaço entre os itens */
+}
+
+
+
+
+
+

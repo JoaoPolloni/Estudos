@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\app",
+    "\\app\\src\\androidTest",
+    "\\app\\src\\androidTest\\java",
+    "\\app\\src\\androidTest\\java\\com",
+    "\\app\\src\\androidTest\\java\\com\\google",
+    "\\app\\src\\androidTest\\java\\com\\google\\tflite",
+    "\\app\\src\\androidTest\\java\\com\\google\\tflite\\imageclassification",
+    "\\app\\src\\androidTest\\java\\com\\google\\tflite\\imageclassification\\sample",
+    "\\gradle"
+  ],
+  "SelectedNode": "\\gradlew.bat",
+  "PreviewInSolutionExplorer": false
+}

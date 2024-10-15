@@ -1,0 +1,72 @@
+// //late String nome;
+// String? nome;
+
+// void main(List<String> arguments) {
+
+// nome = getnome();
+
+// }
+// String getnome(){
+//   return "Polloni";
+// }
+// var nome = 'Polloni';
+
+// String outroNome = 'Cordeiro';
+
+// dynamic tipoDinamico = 'João';
+// tipoDinamico = 1;
+
+// print(nome);
+// print(outroNome);
+// print(tipoDinamico);
+//     print('Poll\'oni');
+
+//   // const listaCompras = ['Arroz', 'Feijão'];
+//   // //listaCompras.add('Carne');
+
+//   // final listaItens = ['Monitor', 'Teclado'];
+//   // listaItens.add('Computador');
+
+//   // //const nome = 'Henrique';
+//   // //nome = 'joao';
+
+//   // print(listaCompras);
+//   // print(listaItens);
+
+  
+//   // String nome = 'Jão' + ' Vitor' +' Polloni';
+
+//   // print("Meu nome é: $nome ");
+
+//     // List<String> listaCompras = ["Arroz"];
+
+// // listaCompras.add('Feijão');
+
+// // print(listaCompras);
+
+//   // Set<String> listaCompras = {"Arroz"};
+
+//   // listaCompras.add("Arroz");
+
+//   // List<String> outraLista = ["Feijão"];
+//   // outraLista.add("Feijão");
+
+//   //   print(listaCompras);
+//   //   print(outraLista);
+
+//   // Map<String, int> salas = {'Henrique': 13, 'Joao': 14};
+  
+//   // print(salas);
+
+//   //Operações Simples
+//   /// +, -, * , /
+//   /// Operadores Diferentes
+//   /// 5 % 2 (1) => (1 1) (1 1) Sobrou 1
+//   /// 5 ~/ 2 (1) => (1 1) (1 1) Grupo 2
+
+//   // var numero = 1;
+//   // print(++numero);
+//   // print(numero is int);
+
+//   var alunos = Map<String, Map<String, List<int>>>();
+// 

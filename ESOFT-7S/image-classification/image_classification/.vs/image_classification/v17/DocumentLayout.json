@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\joao.polloni\\Downloads\\image-classification\\image_classification\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\joao.polloni\\Downloads\\image-classification\\image_classification\\app\\src\\androidTest\\java\\com\\google\\tflite\\imageclassification\\sample\\ExampleInstrumentedTest.java||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\src\\androidTest\\java\\com\\google\\tflite\\imageclassification\\sample\\ExampleInstrumentedTest.java||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\joao.polloni\\Downloads\\image-classification\\image_classification\\gradlew.bat||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:gradlew.bat||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ExampleInstrumentedTest.java",
+              "DocumentMoniker": "C:\\Users\\joao.polloni\\Downloads\\image-classification\\image_classification\\app\\src\\androidTest\\java\\com\\google\\tflite\\imageclassification\\sample\\ExampleInstrumentedTest.java",
+              "RelativeDocumentMoniker": "app\\src\\androidTest\\java\\com\\google\\tflite\\imageclassification\\sample\\ExampleInstrumentedTest.java",
+              "ToolTip": "C:\\Users\\joao.polloni\\Downloads\\image-classification\\image_classification\\app\\src\\androidTest\\java\\com\\google\\tflite\\imageclassification\\sample\\ExampleInstrumentedTest.java",
+              "RelativeToolTip": "app\\src\\androidTest\\java\\com\\google\\tflite\\imageclassification\\sample\\ExampleInstrumentedTest.java",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-04-03T17:55:27.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "gradlew.bat",
+              "DocumentMoniker": "C:\\Users\\joao.polloni\\Downloads\\image-classification\\image_classification\\gradlew.bat",
+              "RelativeDocumentMoniker": "gradlew.bat",
+              "ToolTip": "C:\\Users\\joao.polloni\\Downloads\\image-classification\\image_classification\\gradlew.bat",
+              "RelativeToolTip": "gradlew.bat",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFjSURBVDhPY6AI/P//n7G1s\u002Bc/lEsWYILSRANbaysUmgHkgl\u002B/fpGFQXqxuuDkyZMMEydOBNOEAIYBixYvZhARl2QIiohi4BeTYJg\u002BcxZUBjtAMeDSpUsM1rb2DEoKcgwnDx9kUFOQZ7BxcQeL4wIoBuzfv5\u002BBjZOTYe2aNQyRkZEM69auYWBjY2VYv3UHw4otuxl2HzzK8OPHD6hqCEAxwNHRkeHrt28MQcEhDMuXL2cIANLP33xgUPdNYdB3dGN4JajGcPrSVahqCEAxQE9Pj\u002BHE4UMMV\u002B89ZNC1tGW4dOcBw7kzZxn0lYQZLj/5zGCoLMrw9NU7qGoIwAjEhLhYhm9vXjDsWLOC4fe7lwxm\u002BloMl\u002B69ZdCV4WW4cO8Ng4meNlQlBLBAaRRgbm4OxiAA8vOPU2cZLj34xqCnpswgIyYFFocBDBegAw4ODgYXO2uGcB9XBh01JTAfGVCcFwYaMDAAABi9qE6NKlarAAAAAElFTkSuQmCC",
+              "WhenOpened": "2024-04-03T17:54:40.759Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

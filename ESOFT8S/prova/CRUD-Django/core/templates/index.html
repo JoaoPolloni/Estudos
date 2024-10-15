@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD Ingredientes</title>
+    <style>
+        body {
+            background-color: rgb(173, 216, 230);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            min-height: 100vh;
+            margin: 0;
+        }
+        h1, h2, h3 {
+            color: rgba(233, 21, 21, 0.904);
+        }
+        table {
+            width: 50%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td, h5, h6{
+            padding: 10px;
+            text-align: center;
+            color: black;
+        }
+        a {
+            color: blue;
+            text-decoration: none;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        input[type="text"] {
+            padding: 5px;
+            margin-bottom: 10px;
+        }
+        button {
+            padding: 5px 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Fazedor de misturebas</h1>
+    <h2>Adicione os ingredientes da sua mistureba</h2>
+    <h3>Ficou muito esquisito ou mudou de ideia? Manipule a vontade os elementos</h3>
+    <h4>Cada item adiciona 5 minutos no tempo de preparo, e cada letra dos itens adiciona 1 real a receita</h4>
+
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nome do Ingrediente</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for pessoa in pessoas %}
+            <tr>
+                <td>{{ pessoa.id }}</td>
+                <td>{{ pessoa.nome }}</td>
+                <td>
+                    <a href="{% url 'editar' pessoa.id %}">Editar</a> | 
+                    <a href="{% url 'delete' pessoa.id %}">Deletar</a>
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+    <h2>Tempo total de preparo: {{ tempo_preparo }} minutos</h2>
+    <h2>Custo estimado total: R$ {{ custo_estimado }}</h2>
+
+    <form action="{% url 'salvar' %}" method="post">
+        {% csrf_token %}
+        <input type="text" name="nome" placeholder="Nome do ingrediente">
+        <button type="submit">Salvar</button>
+    </form>
+
+    <h5>João Vitor Polloni RA: 21120606-2 ESOFT7S</h5>
+    <h6>Raijin Copilot ---- ---- ---- Tema N°: 2</h6>
+</body>
+</html> 
